@@ -1,0 +1,168 @@
+<!doctype html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="Survey.css">
+  <title>Survey Page</title>
+</head>
+
+<body>
+  <header id="main-header">
+    <nav>
+      <h1><strong>Survey page</strong></h1>
+      <h3>HTML/CSS project</h3>
+    </nav>
+  </header>
+
+  <div id="main">
+    <h1 id="title">Survey Form</h1>
+    <div id="inner">
+      <p id="description">Do you believe a software engineering/computer science degree contributed (or would have) contributed to your current performance?</p>
+      <form id="survey-form" method="GET" action="https://duckduckgo.com?q=learn+computer+science">
+        <div class="rowtab">
+          <div class="labels">
+            <label id="name-label" for="name">* Name</label>
+          </div>
+          <div class="righttab">
+            <input id="name" class="input-field" autofocus="" type="text" name="name" placeholder="Enter your name" required="" />
+          </div>
+        </div>
+        <br />
+        <div class="rowtab">
+          <div class="labels">
+            <label id="email-label" for="email">* Email</label>
+          </div>
+          <div class="righttab">
+            <input id="email" class="input-field" autofocus="" type="email" name="email" placeholder="Enter your email" required="" />
+          </div>
+        </div>
+        <br />
+        <div class="rowtab">
+          <div class="labels">
+            <label id="number-label" for="number">* Age</label>
+          </div>
+          <div class="righttab">
+            <input id="number" class="input-field" autofocus="" type="number" name="email" placeholder="Age" required="" min="6" max="126" />
+          </div>
+        </div>
+        <br />
+        <div class="rowtab">
+          <div class="labels">
+            <label for="dropdown">* Which option best describes your attitude towards programming?</label>
+          </div>
+          <div class="righttab">
+            <select id="dropdown" class="dropdown" name="dropdown">
+              <option disabled="" value="">Select an option</option>
+              <option value="Freetimelearner">Free time learner</option>
+              <option value="Fulltimelearner">Full time learner</option>
+              <option value="Student">Student</option>
+              <option value="Professional">Professional</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+        <br />
+        <div class="rowtab">
+          <div class="labels">
+            <label for="rating">Would you recommend taking on said academic degree?</label>
+          </div>
+          <div class="righttab">
+            <ul id="rating">
+              <li class="radio"><input name="radio-buttons" value="Definitely" type="radio" <label>Definitely</label></li>
+              <li class="radio"><input name="radio-buttons" value="Depends1" type="radio" <label>Depends on the role you aim for</label></li>
+              <li class="radio"><input name="radio-buttons" value="Depends2" type="radio" <label>Depends on your economic situation</label></li>
+              <li class="radio"><input name="radio-buttons" value="Notsure" type="radio" <label>Not sure</label></li>
+              <li class="radio"><input name="radio-buttons" value="No" type="radio" <label>No</label></li>
+            </ul>
+          </div>
+        </div>
+        <div class="rowtab">
+          <div class="labels">
+            <label for="mosteffective">What is the subject you miss the most (if you have no degree) or feel helped you the most (if you do)?</label>
+          </div>
+          <div class="righttab">
+            <select id="mosteffective" class="dropdown" name="mosteffective">
+              <option disabled="" value="">Select an option</option>
+              <option value="Introductions">Introductions to CS aspects</option>
+              <option value="Practicalmath">Practical math</option>
+              <option value="Theoreticalmath">Theoretical math</option>
+              <option value="Practicalcs">Practical CS courses</option>
+              <option value="TheoreticalCS">Theoretical CS courses</option>
+              <option value="Dsalgo">Data structures and algorithms</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+        <br />
+        <div class="rowtab">
+          <div class="labels">
+            <label for="preferences">* Sources you think were critical for the knowledge you've attained</label>
+          </div>
+          <div class="righttab">
+            <ul id="preferences">
+              <li class="checkbox">
+                <label>
+                  <input class="ratings" name="prefer" value="1" type="checkbox" />
+                  Academic lectures
+                </label>
+              </li>
+              <li class="checkbox">
+                <label>
+                  <input class="ratings" name="prefer" value="2" type="checkbox" />
+                  Random web searches
+                </label>
+              </li>
+              <li class="checkbox">
+                <label>
+                  <input class="ratings" name="prefer" value="3" type="checkbox" />
+                  Specific web searches
+                </label>
+              </li>
+              <li class="checkbox">
+                <label>
+                  <input class="ratings" name="prefer" value="4" type="checkbox" />
+                  Reading documentation
+                </label>
+              </li>
+              <li class="checkbox">
+                <label>
+                  <input class="ratings" name="prefer" value="5" type="checkbox" />
+                  Video guides
+                </label>
+              </li>
+              <li class="checkbox">
+                <label>
+                  <input class="ratings" name="prefer" value="6" type="checkbox" />
+                  Books
+                </label>
+              </li>
+              <li class="checkbox">
+                <label>
+                  <input class="ratings" name="prefer" value="7" type="checkbox" />
+                  Code-learning websites
+                </label>
+              </li>
+              <li class="checkbox">
+                <label>
+                  <input class="ratings" name="prefer" value="8" type="checkbox" />
+                  Other
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="rowtab">
+          <div class="labels">
+            <label for="otherinput">* Any other input or important information?</label>
+          </div>
+          <div class="righttab">
+            <textarea id="otherinput" class="input-field" placeholder="Enter text here" rows="8" cols="80"></textarea>
+          </div>
+        </div>
+        <button id="submit" type="submit" style="align">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+<footer id="footer">
+  <h6>Written by Or Hadad</h6>
+  </footer>

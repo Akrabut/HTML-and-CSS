@@ -1,0 +1,99 @@
+@media only screen and (min-width: 768px){
+#header{
+  position:fixed;
+  justify-content: space-around;
+  background-repeat:repeat;
+  background-attachment: scroll;
+  background-clip:border-box;
+  min-height: 75px;
+  background-color: rgb(238,238,238);
+  top:0px;
+}
+
+#nav-bar{
+  box-sizing:border-box;
+  display:flex;
+  font-family:cursive
+}
+
+#main{
+  background-color: rgb(238,238,238);
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+
+#videosec{
+  display:flex;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+#prices{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  padding:20px;
+}
+
+#get-started{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#qualities{
+  display:grid;
+  align-content: center;
+  grid-column-start: 2;
+  grid-row-start:5;
+  padding: 20px;
+  justify-content: center;
+}
+
+.pricesdiv{
+  border-style:dashed;
+  margin:auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.nav-link{
+  box-sizing: border-box;
+  color:rgb(0,0,0);
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 300px;
+  align-items:flex-end;
+}
+
+#nav-image{
+  width:120px;
+  height:100px;
+}
+
+
+.icons{
+  width:50px;
+  height: auto;
+}
+
+.labels{
+  font-family:cursive;
+  font-weight:bold;
+  font-size: 50px;
+}
+
+.buttons{
+  border-radius: 50%;
+  background-color: rgba(238, 238, 238, 0.18);
+  font-family:cursive;
+  font-weight:bold;
+}
+
+#footer{
+  margin-top:20px;
+  text-align: center;
+}
+}

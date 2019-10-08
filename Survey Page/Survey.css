@@ -1,0 +1,65 @@
+header{
+  background-color:rgba(143, 172, 201, 0.75);
+  background-attachment: scroll;
+  background-clip:border-box;
+  background-origin:padding-box;
+  background-repeat:repeat;
+  box-sizing:border-box;
+  position: relative;
+  text-align:center;
+  font-family:cursive
+}
+
+#main{
+  background-color:rgba(143, 172, 201, 0.75);
+  text-align: center;
+  font-family:cursive
+}
+
+#description{
+  text-align: left;
+}
+
+#inner{
+  background-color:rgba(140,170,200,0.70);
+  display: grid;
+}
+
+.labels{
+  text-align: justify;
+  color:rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+
+.rowtab{
+  grid-row:auto;
+  background-color: rgba(64, 115, 201, 0.31);
+  text-align: center;
+  font-family:"Raleway", Helvetica, sans-serif
+}
+
+.righttab{
+  text-align: justify;
+  color:rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+
+#footer{
+  text-align: center;
+}
+
+#submit{
+  background-color:rgba(31, 42, 117, 0.53);
+  color:rgba(255, 255, 255, 1);
+  border-radius: 25%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width:80px;
+  height:50px;
+  margin-left:45%;
+  margin-right:45%;
+  margin-top:1%;
+  margin-bottom: 1%;
+  font-family: "cursive";
+}

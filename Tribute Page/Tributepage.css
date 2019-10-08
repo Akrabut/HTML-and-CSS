@@ -1,0 +1,55 @@
+header{
+  background-color:rgb(6, 44, 46);
+  color:rgb(221, 228, 235);
+  background-attachment: scroll;
+  background-clip:border-box;
+  background-origin:padding-box;
+  background-repeat:repeat;
+  box-sizing:border-box;
+  position: relative;
+  text-align:left;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+#main-div1{
+  box-sizing: border-box;
+  color:inherit;
+  text-align:center;
+  font-size:15px;
+  font-weight:400;
+  height:244px;
+  line-height: 22.5px;
+}
+#main-body{
+  color:rgb(51,51,51);
+  text-align:center;
+}
+#main{
+  background-clip:border-box;
+  background-color: rgb(238,238,238);
+  font-family:fantasy;
+}
+#image{
+  max-width: 100%;
+  display:block;
+  height:auto;
+  margin:auto;
+}
+#img-caption{
+  background-color:rgb(255, 255, 255);
+font-family: "Trebuchet MS";
+}
+#tribute-info{
+  text-align: center;
+  font-family:helvetica;
+}
+#info-list{
+  text-align: left;
+  margin-left: 40%;
+  margin-right: 20%;
+  max-width:1000px;
+}
+#headline{
+  text-align:left;
+}
